@@ -1,16 +1,32 @@
-# the_wall
+# THE WALL
 
-A new Flutter project.
+Features ->
 
-## Getting Started
+- User Login through email and password or google/github login.
+- User can post some text on wall and comment on other's post.
+- User can like a post.
+- User can delete a post.
+- supports light and dark theme based on system theme
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+###### Login / signup pages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![1689267401398](image/README/1689267401398.png)![1689267439477](image/README/1689267439477.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###### Home Page
+
+![1689267642099](image/README/1689267642099.png)
+![1689267652963](image/README/1689267652963.png)
+
+###### Profile Page
+
+![1689267810366](image/README/1689267810366.png)
+
+###### Navigation Menu
+
+![1689267837422](image/README/1689267837422.png)
+
+###### Alert Dialogs
+
+![1689267864528](image/README/1689267864528.png)

@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
             child: StreamBuilder(
               stream: FirebaseFirestore.instance
                   .collection("posts")
-                  .orderBy("Timestamp", descending: false)
+                  .orderBy("Timestamp", descending: true)
                   .snapshots(),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
@@ -73,7 +73,6 @@ class _HomePageState extends State<HomePage> {
                     return const Center(child: Text("No posts yet"));
                   } //new
                   return ListView.builder(
-                    reverse: true,
                     padding: EdgeInsets.only(bottom: 50),
                     itemCount: snapshot.data!.docs.length,
                     itemBuilder: (context, index) {

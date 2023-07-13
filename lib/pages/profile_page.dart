@@ -126,51 +126,6 @@ class _ProfilePageState extends State<ProfilePage> {
                   const SizedBox(
                     height: 25,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 25.0),
-                    child: Text(
-                      "My Posts",
-                      style: TextStyle(color: Colors.grey[700]),
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  // // Container(
-                  //   child: StreamBuilder(
-                  //     stream: FirebaseFirestore.instance
-                  //         .collection("posts")
-                  //         .orderBy("Timestamp", descending: false)
-                  //         .snapshots(),
-                  //     builder: (context, snapshot) {
-                  //       if (snapshot.hasData) {
-                  //         if (snapshot.data!.docs.isEmpty) {
-                  //           return const Center(child: Text("No posts yet"));
-                  //         } //new
-                  //         return ListView.builder(
-                  //           itemCount: snapshot.data!.docs.length,
-                  //           itemBuilder: (context, index) {
-                  //             final post = snapshot.data!.docs[index];
-                  //             return WallPost(
-                  //                 message: post["Message"],
-                  //                 user: post["User"],
-                  //                 timestamp: post["Timestamp"].toDate(),
-                  //                 postId: post.id,
-                  //                 likes: List<String>.from(post["Likes"]));
-                  //           },
-                  //         );
-                  //       } else if (snapshot.hasError) {
-                  //         return const Center(
-                  //           child: Text("Something went wrong"),
-                  //         );
-                  //       } else {
-                  //         return const Center(
-                  //           child: CircularProgressIndicator(),
-                  //         );
-                  //       }
-                  //     },
-                  //   ),
-                  // ),
                 ],
               );
             } else if (snapshot.hasError) {
