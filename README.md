@@ -12,13 +12,11 @@ Features ->
 
 ###### Login / signup pages
 
-<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267401398.png?raw=true" height="480">
-<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267439477.png?raw=true" height="480">
+<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267401398.png?raw=true" height="480"><img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267439477.png?raw=true" height="480">
 
 ###### Home Page
 
-<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267642099.png?raw=true" height="480">
-<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267652963.png?raw=true" height="480">
+<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267642099.png?raw=true" height="480"><img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267652963.png?raw=true" height="480">
 
 ###### Profile Page
 
