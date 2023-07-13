@@ -12,7 +12,8 @@ Features ->
 
 ###### Login / signup pages
 
-![1689267401398](image/README/1689267401398.png)![1689267439477](image/README/1689267439477.png)
+<img src="https://github.com/kaifcoder/the_wall/blob/main/image/README/1689267401398.png?raw=true" width="150" height="280">
+![1689267439477](image/README/1689267439477.png)
 
 ###### Home Page
 
