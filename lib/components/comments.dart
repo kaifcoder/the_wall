@@ -15,16 +15,37 @@ class Comments extends StatelessWidget {
         color: Theme.of(context).colorScheme.secondary,
         borderRadius: BorderRadius.circular(4),
       ),
+      margin: const EdgeInsets.only(bottom: 5),
+      padding: const EdgeInsets.all(10),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(text),
+          Text(text,
+              style: const TextStyle(
+                overflow: TextOverflow.ellipsis,
+                fontSize: 16,
+              )),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(username),
-              Text("*"),
-              Text(time),
+              Text(
+                username,
+                style: const TextStyle(
+                  overflow: TextOverflow.ellipsis,
+                  fontSize: 12,
+                ),
+              ),
+              const Text(" • "),
+              Text(
+                time,
+                style: const TextStyle(
+                  overflow: TextOverflow.ellipsis,
+                  fontSize: 10,
+                ),
+              ),
             ],
+          ),
+          const SizedBox(
+            height: 5,
           ),
         ],
       ),

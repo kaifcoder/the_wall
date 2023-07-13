@@ -73,13 +73,15 @@ class _HomePageState extends State<HomePage> {
                     return const Center(child: Text("No posts yet"));
                   } //new
                   return ListView.builder(
+                    reverse: true,
+                    padding: EdgeInsets.only(bottom: 50),
                     itemCount: snapshot.data!.docs.length,
                     itemBuilder: (context, index) {
                       final post = snapshot.data!.docs[index];
                       return WallPost(
                           message: post["Message"],
                           user: post["User"],
-                          timestamp: post["Timestamp"].toDate(),
+                          timestamp: post["Timestamp"],
                           postId: post.id,
                           likes: List<String>.from(post["Likes"]));
                     },

@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:the_wall/theme/dark_theme.dart';
 
 ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
   appBarTheme: AppBarTheme(
     backgroundColor: Colors.white,
     foregroundColor: Colors.black,
-    systemOverlayStyle: SystemUiOverlayStyle(
-      statusBarBrightness: darkTheme.brightness,
-    ),
+    systemOverlayStyle: SystemUiOverlayStyle.dark,
   ),
   colorScheme: ColorScheme.light(
     background: Colors.grey[300]!,
